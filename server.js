@@ -82,7 +82,7 @@ if (cluster.isMaster) {
             res.write(`<pre>${ result }</pre>`); 
             res.write("</body>"); 
             res.write("<html>"); 
-            res.end(); process.exit()
+            res.end(); 
         });
     });
     
